@@ -1,0 +1,39 @@
+{
+  "id": "5f071bd2fff276268aa0833e",
+  "name": "[AUTO]",
+  "idCard": "5f05e4f92699052db0b5b471",
+  "pos": 16384,
+  "idBoard": "5e4e61e16aac951dff3e2f53",
+  "checkItems": [
+    {
+      "idChecklist": "5f071bd2fff276268aa0833e",
+      "state": "incomplete",
+      "id": "5f12e8dc866abe555eb77def",
+      "name": "[INPUT_DATA \"Nume\"=\"Matvei\" \"Prenume\"=\"Motorola\" \"E-mail\"=\"kokoko@gmail.com\" \"Parola\"=\"qwe123\" \"Confirma parola\"=\"qwe123\"]",
+      "nameData": null,
+      "pos": 34143,
+      "due": null,
+      "idMember": null
+    },
+    {
+      "idChecklist": "5f071bd2fff276268aa0833e",
+      "state": "incomplete",
+      "id": "5f12eb3e4912e230312f380c",
+      "name": "[FORM id=\"regFormUser\"]",
+      "nameData": null,
+      "pos": 17071.5,
+      "due": null,
+      "idMember": null
+    },
+    {
+      "idChecklist": "5f071bd2fff276268aa0833e",
+      "state": "incomplete",
+      "id": "5f154c9b4f4389771016824c",
+      "name": "[URL url=\"http://lista.local/inregistrare\"]",
+      "nameData": null,
+      "pos": 8535.75,
+      "due": null,
+      "idMember": null
+    }
+  ]
+}
