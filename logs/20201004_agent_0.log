@@ -1,0 +1,152 @@
+2020-10-04 12:39:38.810                         INFO  20 main            i.t.a.Program                            *** AGENT - START ***
+2020-10-04 12:39:39.157                         INFO  20 init-entry      i.t.a.a                                  TestProject Agent 0.64.37 (ea36f4030e1360e6126eeb450547c3519de44a5f) on Linux
+2020-10-04 12:39:39.250                         INFO  20 init-entry      i.t.a.a                                  Running as /home/agent with Non-Root privileges
+2020-10-04 12:39:39.252                         INFO  20 init-entry      i.t.a.a                                  Running inside docker d44aefa7ded6
+2020-10-04 12:39:39.301                         INFO  20 init-entry      i.t.a.a                                  No X11 available - headless mode.
+2020-10-04 12:39:39.303                         INFO  20 init-entry      i.t.a.s.IdentityManager                  No identity file was found - Agent is not registered
+2020-10-04 12:39:39.305                         INFO  20 init-entry      i.t.a.a                                  Working folder: /opt/testproject/agent
+2020-10-04 12:39:39.311                         INFO  20 init-entry      i.t.a.a                                  Data folder: /var/testproject/agent
+2020-10-04 12:39:39.314                         INFO  20 init-entry      i.t.a.a                                  Agent IP addresses: 172.19.0.4
+2020-10-04 12:39:39.332                         INFO  20 init-entry      i.t.a.m.C                                Checking connectivity with https://testproject.io:443 (Using proxy: No)
+2020-10-04 12:39:40.743                         INFO  20 init-entry      i.t.a.m.C                                Connection established successfully.
+2020-10-04 12:39:40.743                         INFO  20 init-entry      i.t.a.a                                  Direct connection (no proxy) to TP is possible.
+2020-10-04 12:39:41.742                         INFO  20 init-entry      i.t.a.a                                  Agent initialization is complete.
+2020-10-04 12:39:41.802                         INFO  20 init-entry      i.t.a.d.a.G                              Checking if Agent is registered and trying to authenticate...
+2020-10-04 12:39:41.803                         INFO  20 init-entry      i.t.a.s.IdentityManager                  No identity file was found - Agent is not registered
+2020-10-04 12:39:41.803                         INFO  20 init-entry      i.t.a.d.a.G                              Checking if Agent is registered...
+2020-10-04 12:39:41.804                         INFO  20 init-entry      i.t.a.d.a.G                              Checking if configuration passed via environment variable is present...
+2020-10-04 12:39:41.805                         INFO  20 init-entry      i.t.a.d.a.G                              Trying to register with configuration provided...
+2020-10-04 12:39:41.806                         INFO  20 init-entry      i.t.a.d.a.G                              Registering agent with configuration
+2020-10-04 12:39:42.060                         INFO  20 pool-3-thread-2 i.t.a.a.b.h                              Connecting TestProject servers...
+2020-10-04 12:39:42.062                         INFO  20 pool-3-thread-2 i.t.a.m.C                                Checking connectivity with https://testproject.io:443 (Using proxy: No)
+2020-10-04 12:39:42.439                         INFO  20 pool-3-thread-2 i.t.a.m.C                                Connection established successfully.
+2020-10-04 12:39:42.439                         INFO  20 pool-3-thread-2 i.t.a.a.b.h                              Registering Agent...
+2020-10-04 12:39:42.439                         INFO  20 pool-3-thread-2 i.t.a.a.b.h                              Preparing to send registration request to host https://api.testproject.io/
+2020-10-04 12:39:42.450                         INFO  20 pool-3-thread-2 i.t.a.a.b.h                              Sending registration request to https://api.testproject.io/agents/registration/agents
+2020-10-04 12:39:43.069                         INFO  20 pool-3-thread-3 i.t.a.a.a.d                              POST https://api.testproject.io/agents/registration/agents - 200 (AcLkoD74): null
+2020-10-04 12:39:43.078                         INFO  20 pool-3-thread-2 i.t.a.a.b.h                              Registration request succeeded.
+2020-10-04 12:39:43.173                         INFO  20 init-entry      i.t.a.m.D                                Registered successfully
+2020-10-04 12:39:43.174                         INFO  20 init-entry      i.t.a.m.D                                Agent has registered with token: eyJhY2lkIjoiVEtZQ0pJR1VFMHlOc0FWSElpUnI0QSIsImd1aWQiOiJjeUtwZTVnZmNVV0pMR0o2UXNPaG5nIiwiYWxzIjoiQWdlbnRfY3lLcGU1Z2ZjVVdKTEdKNlFzT2huZyIsInR5cCI6IlBoeXNpY2FsIiwidG1wIjoiRmFsc2UiLCJuYmYiOjE2MDE4MTUxNzQsImV4cCI6MTYwMTgxNTQ3NCwiaWF0IjoxNjAxODE1MTc0LCJpc3MiOiJBZ2VudHMtUmVnaXN0cmF0aW9uLUF1dGhvcml0eSIsImF1ZCI6InRwLmFnZW50In0
+2020-10-04 12:39:43.210                         INFO  20 init-entry      i.t.a.s.IdentityManager                  Agent identity has been saved
+2020-10-04 12:39:43.234                         INFO  20 init-entry      i.t.a.d.a.G                              Agent is registered, ID: 259739, GUID: cyKpe5gfcUWJLGJ6QsOhng
+2020-10-04 12:39:43.256                         INFO  20 auth-entry      i.t.a.d.a.a                              Authenticating with TestProject...
+2020-10-04 12:39:43.258                         INFO  20 auth-entry      i.t.a.s.c                                Requesting authenticating token...
+2020-10-04 12:39:43.674                         INFO  20 state-machine   i.t.a.d.a.d                              Starting Signal...
+2020-10-04 12:39:44.637                         INFO  20 EventThread     i.t.a.a.c.a                              Signal connected
+2020-10-04 12:39:44.650                         INFO  20 EventThread     i.t.a.a.c.a                              Sent empty Session ID
+2020-10-04 12:39:44.651                         INFO  20 EventThread     i.t.a.a.c.a                              Waiting for server to send authentication result...
+2020-10-04 12:39:45.708                         INFO  20 EventThread     i.t.a.a.c.a                              Signal authorization finished
+2020-10-04 12:39:45.709                         INFO  20 EventThread     i.t.a.a.c.a                              Connection Session ID: 7O6mkTtrZ
+2020-10-04 12:39:45.710                         INFO  20 EventThread     i.t.a.a.c.a                              Signal authorized
+2020-10-04 12:39:45.710                         INFO  20 state-machine   i.t.a.a                                  Heartbeat State: Starting
+2020-10-04 12:39:47.870                         INFO  20 jersey-client-a i.t.a.a.a.d                              PUT https://api.testproject.io/api/v1/agent/state - 200 (iBtmnwIq): null
+2020-10-04 12:39:47.942                         INFO  20 state-machine   i.t.a.a                                  Refreshing & reporting capabilities...
+2020-10-04 12:39:48.032                         INFO  20 state-machine   i.t.a.m.b.a                              Running in docker - ADB version querying will be skipped.
+2020-10-04 12:39:48.033                         INFO  20 state-machine   i.t.a.m.b.a                              Detected Java [13-ea]
+2020-10-04 12:39:48.033                         INFO  20 state-machine   i.t.a.m.b.a                              Detected DotNet [2.2.8]
+2020-10-04 12:39:48.034                         INFO  20 state-machine   i.t.a.m.b.b                              Searching for installed browsers...
+2020-10-04 12:39:48.059                         INFO  20 state-machine   i.t.a.m.b.b                              Getting external browser version via http://chrome:4444/wd/hub
+2020-10-04 12:40:05.468                         INFO  20 state-machine   i.t.a.m.b.b                              External CHROME version is 85.0.4183.83
+2020-10-04 12:40:05.544                         INFO  20 state-machine   i.t.a.m.b.b                              Getting external browser version via http://firefox:4444/wd/hub
+2020-10-04 12:40:21.129                         INFO  20 state-machine   i.t.a.m.b.b                              External FIREFOX version is 80.0
+2020-10-04 12:40:22.734                         INFO  20 state-machine   i.t.a.m.b.b                              Finished detecting installed browsers.
+2020-10-04 12:40:22.736                         INFO  20 state-machine   i.t.a.m.b.a                              Running in docker - drivers detection will be skipped.
+2020-10-04 12:40:23.086                         INFO  20 jersey-client-a i.t.a.a.a.d                              POST https://api.testproject.io/api/v1/agent/capabilities - 200 (oe3LkrgJ): Capabilities were received
+2020-10-04 12:40:23.098                         INFO  20 state-machine   i.t.a.m.e.l                              No Android SDK found
+2020-10-04 12:40:23.101                         INFO  20 idle-entry      i.t.a.m.e.k                              Appium server executable not found, assuming mobile components are not installed.
+2020-10-04 12:40:23.153                         INFO  20 idle-entry      i.t.a.w.a                                Starting Web Server...
+2020-10-04 12:40:23.435                         INFO  20 idle-entry      i.t.a.a.a.d                              POST https://api.testproject.io/api/v1/agent/certificate - 200 (6BLQyXXs): null
+2020-10-04 12:40:23.468                         INFO  20 idle-entry      i.t.a.w.a                                Starting internal web server...
+2020-10-04 12:40:25.105                         INFO  20 idle-entry      i.t.a.w.a                                Web server started on https://local.rdr.tpagent.io:8443 and http://localhost:8585
+2020-10-04 12:40:25.106                         INFO  20 idle-entry      i.t.a.s.IdentityManager                  Requesting remote identity...
+2020-10-04 12:40:25.179                         INFO  20 idle-entry      i.t.a.a.a.d                              GET https://api.testproject.io/api/v1/agent - 200 (y4C7VgrD): null
+2020-10-04 12:40:25.188                         INFO  20 idle-entry      i.t.a.s.IdentityManager                  Agent identity has been saved
+2020-10-04 12:40:25.189                         INFO  20 idle-entry      i.t.a.d.a.C                              Account plan: Free
+2020-10-04 12:40:25.382                         INFO  20 idle-entry      i.t.a.a.a.d                              GET https://api.testproject.io/api/v1/configuration/file-signer/certificate - 200 (RuEMeVCU): null
+2020-10-04 12:40:25.387                         INFO  20 idle-entry      i.t.a.a                                  Heartbeat State: Idle
+2020-10-04 12:40:28.858                         INFO  20 jersey-client-a i.t.a.a.a.d                              PUT https://api.testproject.io/api/v1/agent/state - 200 (Sqna0D6P): null
+2020-10-04 12:40:28.860                         INFO  20 idle-entry      i.t.a.a                                  No execution has been supplied.
+2020-10-04 12:41:09.528                         INFO  6 main            i.t.a.Program                            *** AGENT - START ***
+2020-10-04 12:41:09.804                         INFO  6 init-entry      i.t.a.a                                  TestProject Agent 0.64.37 (ea36f4030e1360e6126eeb450547c3519de44a5f) on Linux
+2020-10-04 12:41:09.842                         INFO  6 init-entry      i.t.a.a                                  Running as /home/agent with Non-Root privileges
+2020-10-04 12:41:09.844                         INFO  6 init-entry      i.t.a.a                                  Running inside docker 099058666f47
+2020-10-04 12:41:09.860                         INFO  6 init-entry      i.t.a.a                                  No X11 available - headless mode.
+2020-10-04 12:41:10.017 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.a                                  Working folder: /opt/testproject/agent
+2020-10-04 12:41:10.018 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.a                                  Data folder: /var/testproject/agent
+2020-10-04 12:41:10.027 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.a                                  Agent IP addresses: 172.19.0.4
+2020-10-04 12:41:10.029 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.m.C                                Checking connectivity with https://testproject.io:443 (Using proxy: No)
+2020-10-04 12:41:10.972 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.m.C                                Connection established successfully.
+2020-10-04 12:41:10.973 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.a                                  Direct connection (no proxy) to TP is possible.
+2020-10-04 12:41:11.587 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.a                                  Agent initialization is complete.
+2020-10-04 12:41:11.594 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.d.a.G                              Checking if Agent is registered and trying to authenticate...
+2020-10-04 12:41:11.600 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.d.a.G                              Checking if Agent is registered...
+2020-10-04 12:41:11.606 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.d.a.G                              Agent is registered, ID: 259739, GUID: cyKpe5gfcUWJLGJ6QsOhng
+2020-10-04 12:41:11.614 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 auth-entry      i.t.a.d.a.a                              Authenticating with TestProject...
+2020-10-04 12:41:11.622 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 auth-entry      i.t.a.s.c                                Requesting authenticating token...
+2020-10-04 12:41:12.234 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.d.a.d                              Starting Signal...
+2020-10-04 12:41:13.044 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 EventThread     i.t.a.a.c.a                              Signal connected
+2020-10-04 12:41:13.057 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 EventThread     i.t.a.a.c.a                              Sent empty Session ID
+2020-10-04 12:41:13.058 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 EventThread     i.t.a.a.c.a                              Waiting for server to send authentication result...
+2020-10-04 12:41:14.244 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 EventThread     i.t.a.a.c.a                              Signal authorization finished
+2020-10-04 12:41:14.245 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 EventThread     i.t.a.a.c.a                              Connection Session ID: n0nKGj7bW
+2020-10-04 12:41:14.246 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 EventThread     i.t.a.a.c.a                              Signal authorized
+2020-10-04 12:41:14.247 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.a                                  Heartbeat State: Starting
+2020-10-04 12:41:16.776 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 jersey-client-a i.t.a.a.a.d                              PUT https://api.testproject.io/api/v1/agent/state - 200 (6Cdj1pA8): null
+2020-10-04 12:41:16.804 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.a                                  Refreshing & reporting capabilities...
+2020-10-04 12:41:16.807 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.b.a                              Running in docker - ADB version querying will be skipped.
+2020-10-04 12:41:16.807 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.b.a                              Detected Java [13-ea]
+2020-10-04 12:41:16.808 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.b.a                              Detected DotNet [2.2.8]
+2020-10-04 12:41:16.808 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.b.b                              Searching for installed browsers...
+2020-10-04 12:41:16.821 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.b.b                              Getting external browser version via http://chrome:4444/wd/hub
+2020-10-04 12:41:17.692 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.b.b                              External CHROME version is 85.0.4183.83
+2020-10-04 12:41:17.831 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.b.b                              Getting external browser version via http://firefox:4444/wd/hub
+2020-10-04 12:41:23.633 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.b.b                              External FIREFOX version is 80.0
+2020-10-04 12:41:25.477 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.b.b                              Finished detecting installed browsers.
+2020-10-04 12:41:25.492 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.b.a                              Running in docker - drivers detection will be skipped.
+2020-10-04 12:41:25.944 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 jersey-client-a i.t.a.a.a.d                              POST https://api.testproject.io/api/v1/agent/capabilities - 200 (JDWj1XqE): Capabilities were received
+2020-10-04 12:41:25.957 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 state-machine   i.t.a.m.e.l                              No Android SDK found
+2020-10-04 12:41:25.961 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.m.e.k                              Appium server executable not found, assuming mobile components are not installed.
+2020-10-04 12:41:25.967 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.w.a                                Starting Web Server...
+2020-10-04 12:41:26.161 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.a.a.d                              POST https://api.testproject.io/api/v1/agent/certificate - 200 (bLrpScPZ): null
+2020-10-04 12:41:26.192 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.w.a                                Starting internal web server...
+2020-10-04 12:41:28.576 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.w.a                                Web server started on https://local.rdr.tpagent.io:8443 and http://localhost:8585
+2020-10-04 12:41:28.576 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.s.IdentityManager                  Requesting remote identity...
+2020-10-04 12:41:28.781 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.a.a.d                              GET https://api.testproject.io/api/v1/agent - 200 (o2vtrqrb): null
+2020-10-04 12:41:28.790 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.s.IdentityManager                  Agent identity has been saved
+2020-10-04 12:41:28.791 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.d.a.C                              Account plan: Free
+2020-10-04 12:41:28.907 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.a.a.d                              GET https://api.testproject.io/api/v1/configuration/file-signer/certificate - 200 (VFaKf68q): null
+2020-10-04 12:41:28.912 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.a                                  Heartbeat State: Idle
+2020-10-04 12:41:32.213 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 jersey-client-a i.t.a.a.a.d                              PUT https://api.testproject.io/api/v1/agent/state - 200 (CPH3EAgl): null
+2020-10-04 12:41:32.215 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.a                                  No execution has been supplied.
+2020-10-04 12:41:39.369 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.a.a.d                              GET https://api.testproject.io/api/v1/agent/tokens?type=Development&token=_3OmfEBk0j34xppFLSESWvRFxrQIELmnNQ7ueyPw4zo1 - 200 (mSEKCr91): null
+2020-10-04 12:41:39.369 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.a.b.d                              Token Development is valid
+2020-10-04 12:41:39.425 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 qtp391749265-58 i.t.a.w.r.e.a.DevelopmentEndpoints       Received request to start development mode
+2020-10-04 12:41:39.435 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 start-dev       i.t.a.m.p                                Updating Chrome driver to match browser version 85.0.4183.83
+2020-10-04 12:41:39.436 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 start-dev       i.t.a.m.p                                Browser Chrome browser (85.0.4183.83) is external, skipping driver update
+2020-10-04 12:41:39.547 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 start-dev       i.t.a.m.c.d                              Initializing driver Chrome...
+2020-10-04 12:41:40.065 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 start-dev       i.t.a.m.c.d                              Chrome Driver initialized.
+2020-10-04 12:41:40.426 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 start-dev       i.t.a.a.a.d                              POST https://api.testproject.io/executions/results/local-execution - 200 (FI7jOdXt): null
+2020-10-04 12:41:40.433 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 start-dev       i.t.a.a.b.d                              Reporting execution state 'Executing' for package A7lG5XpHQkaS0mSRPZ7JPQ 
+2020-10-04 12:41:42.116 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 jersey-client-a i.t.a.a.a.d                              PUT https://api.testproject.io/api/v1/executions/A7lG5XpHQkaS0mSRPZ7JPQ/state - 200 (JGaL7dTa): State was updated
+2020-10-04 12:41:42.208 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 start-dev       i.t.a.m.a.a                              Environment variable TP_SDK_PORT is defined: 8686
+2020-10-04 12:41:42.209 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 start-dev       i.t.a.m.a.a                              Using SDK port: 8686
+2020-10-04 12:41:42.210 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 start-dev       i.t.a.a                                  Heartbeat State: Dev
+2020-10-04 12:41:42.448 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 pool-4-thread-1 i.t.a.a.a.d                              POST https://api.testproject.io/executions/progress/projects/fa4t0DW2X0-A_i8YX-5w4g/executions/A7lG5XpHQkaS0mSRPZ7JPQ - 200 (sjg2BN00): null
+2020-10-04 12:41:44.493 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 jersey-client-a i.t.a.a.a.d                              PUT https://api.testproject.io/api/v1/agent/state - 200 (oLNU4bsc): null
+2020-10-04 12:41:51.310 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 init-entry      i.t.a.m.a.a                              Development socket disconnected
+2020-10-04 12:41:51.351 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.m.e.k                              Appium server executable not found, assuming mobile components are not installed.
+2020-10-04 12:41:51.352 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.d.a.C                              Account plan: Free
+2020-10-04 12:41:51.352 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.a                                  Heartbeat State: Idle
+2020-10-04 12:41:51.365 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 start-dev       i.t.a.a.b.d                              Reporting execution state 'Done' for package A7lG5XpHQkaS0mSRPZ7JPQ 
+2020-10-04 12:41:53.456 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 jersey-client-a i.t.a.a.a.d                              PUT https://api.testproject.io/api/v1/executions/A7lG5XpHQkaS0mSRPZ7JPQ/state - 200 (826pvOVn): State was updated
+2020-10-04 12:41:56.211 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 jersey-client-a i.t.a.a.a.d                              PUT https://api.testproject.io/api/v1/agent/state - 200 (lvbtPHmY): null
+2020-10-04 12:41:56.213 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 idle-entry      i.t.a.a                                  No execution has been supplied.
+2020-10-04 12:41:56.213 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 pool-4-thread-1 i.t.a.m.c.k                              There are 1 execution reports pending to be uploaded
+2020-10-04 12:41:56.218 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 pool-4-thread-1 i.t.a.m.c.k                              Initiating upload for execution report A7lG5XpHQkaS0mSRPZ7JPQ
+2020-10-04 12:41:56.218 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 pool-4-thread-1 i.t.a.m.c.k                              Finished reporting task
+2020-10-04 12:41:56.245 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 pool-4-thread-1 i.t.a.m.c.k                              Submitting report for execution A7lG5XpHQkaS0mSRPZ7JPQ
+2020-10-04 12:41:56.977 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 pool-4-thread-1 i.t.a.a.a.d                              POST https://api.testproject.io/executions/results/projects/fa4t0DW2X0-A_i8YX-5w4g/executions/A7lG5XpHQkaS0mSRPZ7JPQ/report - 200 (z4kIaYKP): null
+2020-10-04 12:41:56.980 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 pool-4-thread-1 i.t.a.m.c.k                              Successfully handled report for execution A7lG5XpHQkaS0mSRPZ7JPQ
+2020-10-04 12:41:56.980 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 pool-4-thread-1 i.t.a.m.c.k                              Uploading attachments for execution A7lG5XpHQkaS0mSRPZ7JPQ
+2020-10-04 12:41:56.980 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 pool-4-thread-1 i.t.a.m.c.k                              Successfully handled attachments for execution A7lG5XpHQkaS0mSRPZ7JPQ
+2020-10-04 12:41:57.075 cyKpe5gfcUWJLGJ6QsOhng  INFO  6 pool-4-thread-1 i.t.a.m.c.k                              Successfully finished execution A7lG5XpHQkaS0mSRPZ7JPQ reporting.
