@@ -1,0 +1,34 @@
+version: "3.1"
+services:
+ testproject-agent:
+  image: testproject/agent:latest
+  container_name: testproject-agent
+  depends_on:
+        - chrome
+        - firefox
+  volumes:
+        - /home/pandavandama/GIT/TestJar:/var/testproject/agent
+  environment:
+        TP_API_KEY: "sWw49wBjHJuvmhH1liwLH415gZkY9SSmqaiwN8yZPLE1"
+        TP_SDK_PORT: "8686"
+        TP_JOB_ID: "AlUlVL0mHU2sMd1U2XTqTA"
+        TP_JOB_PARAMS: '"jobParameters" : { "browsers": [ "chrome", "firefox" ] }'
+        CHROME: "chrome:4444"
+        CHROME_EXT: "localhost:5555"
+        FIREFOX: "firefox:4444"
+        FIREFOX_EXT: "localhost:5556"
+  ports:
+             - "8585:8585"
+             - "8686:8686"
+ chrome:
+        image: selenium/standalone-chrome
+        volumes:
+               - /dev/shm:/dev/shm
+        ports:
+        - "5555:4444"
+ firefox:
+        image: selenium/standalone-firefox
+        volumes:
+               - /dev/shm:/dev/shm
+        ports:
+        - "5556:4444"
